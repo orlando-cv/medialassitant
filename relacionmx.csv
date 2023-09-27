@@ -1,0 +1,6 @@
+id,medicamento,dosis,frecuencia,indicaciones,paciente_id,consulta_id,medicamento_id,created_at,updated_at
+36,Paracetamol - 500mg - tabletas,1 tableta,cada 12 horas,asdfasdfasd,6,2,1,2023-08-08 00:16:47,2023-08-08 00:16:47
+38,Amoxicilina/Ácido clavulánico - 500 mg/50 mg - inyeccion,1 inyeccion,cada 24 horas,despues de la cena,6,2,8,2023-08-08 00:23:10,2023-08-08 00:23:10
+39,Ibuprofeno - 400mg - tabletas,1 tableta,cada 6 horas,asdfasf,6,2,3,2023-08-08 00:38:46,2023-08-08 00:38:46
+40,Paracetamol - 500mg - tabletas,1 tableta,cada 12 horas,sin indicaciones,7,3,1,2023-08-08 02:53:37,2023-08-08 02:53:37
+42,Amoxicilina/Ácido clavulánico - 500 mg/50 mg - inyeccion,1 inyeccion,cada 24 horas,sin indicaciones,7,3,8,2023-08-08 02:54:51,2023-08-08 02:54:51

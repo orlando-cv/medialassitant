@@ -1,0 +1,6 @@
+id,nombre,sexo,fecha,escolaridad,ocupacion,estado_civil,telefono,whatsapp,calle,num_ext,num_int,ciudad,colonia,cp,estado,created_at,updated_at
+1,Orlando Campos Vazquez,Hombre,1989-04-17,Universidad,Desarrollador,Casado,3461004873,1,Oyameles,6,,Teocaltiche,Arboledas,47200,Jalisco,2023-05-23 03:27:33,2023-05-23 03:27:33
+2,Israel Sandoval Rubio,Hombre,1983-11-10,Universidad,Mercadologo,Casado,3461035896,1,Napoles,43,,Teocaltiche,El Puente,47200,Jalisco,2023-05-23 03:34:52,2023-05-23 03:34:52
+3,Ulises Santana Sanchez,Hombre,1985-07-07,Universidad,Diseñador Grafico,Viudo,4491281591,1,Aristeo Ruiz,235,,Teocaltiche,San Miguel,47200,Jalisco,2023-05-24 01:50:38,2023-05-24 01:50:38
+4,Salvador Campos Macias,Hombre,1970-01-01,Secundaria,Prestador de servicios,Divorciado,3461085408,1,Luis Echeverria,12,,Teocaltiche,San Miguel,47200,Jalisco,2023-06-05 23:47:23,2023-06-05 23:47:23
+5,Rosalba Garcia Ruvalcaba,Mujer,1985-09-18,Preparatoria,Ama de Casa,Casado,4494481254,1,Oyameles,6,,Teocaltiche,Arboledas,47200,Jalisco,2023-06-07 01:42:11,2023-06-07 01:42:11

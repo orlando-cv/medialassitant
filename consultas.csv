@@ -1,0 +1,6 @@
+id,sesion,padecimiento,antecedentes,alergias,peso,estatura,temperatura,presion,frecuencia_cardiaca,glucosa,paciente_id,created_at,updated_at
+6,3,Dolor de Estomago,Dolor de cabeza,ninguna,1,2,3,4,5,6,7,2023-10-02 00:00:00,2023-10-02 00:00:00
+5,2,Dolor de Cabeza,Dolor de cabeza,ninguna,1,2,3,4,5,6,7,2023-09-24 00:00:00,2023-09-24 00:00:00
+3,1,Dolor de Cabeza,Migraña,ninguna,1,23,3,4,5,6,7,2023-08-08 00:00:00,2023-08-08 02:53:20
+4,1,Dolor de Garganta,Gripa,ninguna,1,2,3,4,5,6,2,2023-08-08 00:00:00,
+2,1,qwerqewr,asdfasfasd,zxcvzxvzxc,1,2,3,4,5,6,6,2023-07-25 02:55:23,2023-08-08 00:38:26

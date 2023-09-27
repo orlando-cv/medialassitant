@@ -1,0 +1,10 @@
+id,compuesto,presentacion,composicion,via,laboratorio,created_at,updated_at
+1,Paracetamol,tabletas,500mg,oral,Johnson & Johnson,,
+2,Ácido Acetilsalicílico/Cafeína,tabletas,500mg/30mg,oral,Bayer,,
+3,Ibuprofeno,tabletas,400mg,oral,Bayer,,
+4,Dextrometorfano/Ambroxol,jarabe,225mg/225mg,oral,Sanofi,,
+5,Dextrometorfano hidrobromuro,jarabe,2mg/ml,oral,Sanofi,,
+6,Naproxeno,tabletas,550mg,oral,Bayer,,
+7,Diclofenaco,pomada/gel,2.32%,untar,GSK,,
+8,Amoxicilina/Ácido clavulánico,inyeccion,500 mg/50 mg,intravenosa,"Reig Jofré, S.A",,
+9,Paracetamol,tabletas,650mg,oral,Johnson & Johnson,,

@@ -1,0 +1,567 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 16px; /* px fallback */
+    font-size: 1.6rem; /* default font-size for document */
+    line-height: 2; /* a nice line-height */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: top center;
+}
+
+body.fondo-pagina-inicio {
+    background-image: url("../img/fondo2.jpg");
+}
+
+body.fondo-pagina-paciente {
+    background-image: url("../img/fondo3.jpg");
+}
+
+body.fondo-color {
+    background-color: #009AFF;
+}
+
+html {
+    margin-top: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+/* ====================================================== */
+/* ====================== NAVBAR ======================== */
+/* ====================================================== */
+header .navbar .container-fluid .navbarNav ul li {
+    margin-right: 5rem;
+}
+header .navbar .container-fluid .navbarNav ul li .orilla {
+    margin-right: 10rem;
+    padding: 1rem 3rem;
+    background-color: rgb(1, 86, 147);
+    border-radius: 20px;
+}
+header .navbar .container-fluid .navbarNav ul li a {
+    font-family: 'Open Sans';
+    font-size: 3rem;
+    padding: 1rem 3rem;
+}
+
+header.menu-index .navbar .container-fluid .navbarNav ul li a,
+header.menu-paciente .navbar .container-fluid .navbarNav ul li .orilla {
+    color: white;
+}
+header.menu-paciente .navbar .container-fluid .navbarNav ul li a {
+    color: #015693;
+}
+
+@media (max-width: 1800px){
+    header .navbar .container-fluid .navbarNav ul li {
+        margin-right: 3rem;
+    }
+    header .navbar .container-fluid .navbarNav ul li .orilla {
+        margin-right: 7rem;
+    }
+    header .navbar .container-fluid .navbarNav ul li a {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1448px){
+    header .navbar .container-fluid .navbarNav ul li {
+        margin-right: 1.5rem;
+    }
+    header .navbar .container-fluid .navbarNav ul li .orilla {
+        margin-right: 5rem;
+    }
+    header .navbar .container-fluid .navbarNav ul li a {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1360px){
+    header .navbar .container-fluid .navbarNav ul li {
+        margin-right: .5rem;
+    }
+    header .navbar .container-fluid .navbarNav ul li .orilla {
+        margin-right: 3rem;
+    }
+    header .navbar .container-fluid .navbarNav ul li a {
+        font-size: 2rem;
+    }
+}
+
+/* ====================================================== */
+/* ====================== MENSAJE ======================= */
+/* ====================================================== */
+.cont-mensaje {
+    margin-top: 10rem;
+}
+.cont-mensaje .fila-mensaje {
+    margin-left: 8rem;
+}
+.cont-mensaje .fila-mensaje .col-mensaje {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.cont-mensaje .fila-mensaje .col-mensaje .titulo-mensaje{
+    font-weight: 600;
+    font-size: 8rem;
+    margin: 0;
+}
+.cont-mensaje .fila-mensaje .col-mensaje .parrafo-mensaje{
+    font-weight: 400;
+    font-size: 2.1rem;
+    margin: 0;
+}
+
+/* ====================================================== */
+/* ===================== BUSQUEDA ======================= */
+/* ====================================================== */
+.cont-busqueda {
+    margin-top: 4rem;
+}
+
+.cont-busqueda .fila-busqueda,
+.cont-busqueda .fila-resultados,
+.cont-busqueda .fila-agregar-paciente {
+    margin-left: 8rem;
+}
+
+.cont-busqueda .fila-busqueda .col-busqueda form input::placeholder {
+    background-image: url("../img/lupa3.png");
+    background-size: 5rem 5rem;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.cont-busqueda .fila-busqueda .col-busqueda input {
+    font-size: 3rem;
+    width: 50%;
+}
+
+.cont-busqueda .fila-resultados {
+    margin-top: 3.5rem;
+}
+
+.fila-resultados .col-resultados .scroll-bg {
+    /* background-color: rgb(0, 95, 204); */
+    width: 70%;
+}
+
+.fila-resultados .col-resultados .scroll-bg .scroll-div {
+    height: 19rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.fila-resultados .col-resultados .scroll-bg .scroll-div .scroll-object table {
+    width: 100%;
+}
+.fila-resultados .col-resultados .scroll-bg .scroll-div .scroll-object table tr {
+    display: block;
+    margin: 1rem 2rem 1rem 0;
+    
+}
+
+.fila-resultados .col-resultados .scroll-bg .scroll-div .scroll-object table tr td {
+    display: block;
+    padding: 1rem 2rem;
+    background-color: rgba(255, 255, 255, 0.741);
+    font-family: 'Open Sans';
+    font-size: 2rem;
+}
+
+.cont-busqueda .fila-agregar-paciente .col-agregar-paciente a
+ {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    margin-top: 3.5rem;
+    margin-right: 10rem;
+    padding: 1rem 3rem;
+    background-color: rgb(1, 86, 147);
+    border-radius: 20px;
+    font-size: 3rem;
+    padding: 1rem 3rem;
+    color: white;
+}
+
+.cont-busqueda .fila-agregar-paciente {
+    margin-top: 3.5rem;
+}
+
+
+
+/* ====================================================== */
+/* ===================== PACIENTE ======================= */
+/* ====================================================== */
+
+/* ====================================================== */
+/* ===================== PACIENTE ======================= */
+/* ====================================================== */
+.cont-paciente {
+    color: #009AFF;
+}
+.cont-paciente {
+    margin-top: 10rem
+}
+
+.cont-paciente .fila-paciente .col-paciente h1 {
+    font-weight: 600;
+    font-size: 8rem;
+    margin: 0;
+}
+
+.cont-paciente .fila-paciente {
+    margin-left: 8rem;
+}
+
+.cont-paciente .fila-paciente .col-paciente form .container .row {
+    margin-top: .5rem;
+}
+
+.cont-paciente .fila-paciente .col-paciente form .container .row label,
+.cont-paciente .fila-paciente .col-paciente form .container .row div label,
+.cont-paciente .fila-paciente .col-paciente form .container .row div .sexo {
+    font-family: 'Open sans';
+    font-size: 2rem
+}
+
+/* .cont-paciente .fila-paciente .col-paciente form .container .row div .sexo {
+    margin-right: 2rem;
+} */
+
+.cont-paciente .fila-paciente .col-paciente form .container .row div .form-check {
+    margin-left: 2rem;
+}
+
+.cont-paciente .fila-paciente .col-paciente form .container .row div .form-check .form-check-input {
+    font-size: 2rem;
+}
+.cont-paciente .fila-paciente .col-paciente form .container .fila-domicilio .col-domicilio{
+    background-color: #E5E5E7;
+    padding: 1rem 0;
+}
+
+.cont-paciente .fila-paciente .col-paciente form .container .row div input,
+.cont-paciente .fila-paciente .col-paciente form .container .row div select {
+    font-size: 2rem;
+    border: 2px solid #000;
+}
+
+.cont-paciente .fila-paciente .col-paciente form .container .telefono {
+    margin-right: 3rem;
+}
+
+.cont-paciente .fila-paciente .col-paciente form .container .row div div i {
+    font-size: 5rem;
+    color: #E5E5E7;
+}
+
+.cont-paciente .fila-paciente .col-paciente form .container .row div .form-check .check-whats {
+    margin: auto 1rem;
+}
+
+.cont-paciente .fila-paciente .col-paciente form .container .row div .btn-agregar {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    margin-top: 3.5rem;
+    margin-right: 10rem;
+    padding: 1rem 3rem;
+    background-color: #E9E9E9;
+    border-radius: 20px;
+    font-size: 3rem;
+    padding: 1rem 3rem;
+    color: #208ECB;
+    border: 3px solid #B0B1B0;
+}
+
+
+
+/* ====================================================== */
+/* ===================== CONSULTA ======================= */
+/* ====================================================== */
+.cont-consulta {
+    margin-top: 2rem;
+}
+
+.cont-consulta .fila-consulta,
+.cont-datos-paciente .fila-datos-paciente,
+.cont-datos-paciente .fila-datos,
+.cont-datos-paciente .fila-ultima-consulta,
+.cont-datos-paciente .fila-datos-generales {
+    margin-left: 8rem;
+}
+
+.cont-datos-paciente .fila-ultima-consulta,
+.cont-datos-paciente .fila-datos-paciente {
+    margin-top: 2rem;
+}
+
+.cont-consulta .fila-consulta .col-consulta {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.cont-datos-paciente .fila-datos-paciente .col-datos-paciente label {
+    margin-right: 1rem;
+}
+
+.cont-consulta .fila-consulta .col-consulta .titulo-consulta{
+    font-weight: 600;
+    font-size: 8rem;
+    margin: 0;
+}
+.cont-datos-paciente .fila-datos .col-datos p span,
+.cont-datos-paciente .fila-datos-generales .col-datos-generales p span,
+.cont-datos-paciente .fila-datos-paciente .col-datos-paciente label{
+    color: #52CCF6!important;
+}
+
+.cont-datos-paciente .fila-datos-generales .col-datos-generales ul#lista-medicamentos {
+    list-style: none!important;
+    color: #52CCF6!important;
+}
+.cont-datos-paciente .fila-datos-generales .col-datos-generales ul li{
+    text-decoration: none;
+}
+
+.cont-datos-paciente .fila-datos .col-datos p,
+.cont-datos-paciente .fila-datos-generales .col-datos-generales p,
+.cont-datos-paciente .fila-datos-generales .col-datos-generales ul {
+    color: #CECCCE;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cont-datos-paciente .fila-datos .col-datos p,
+.cont-datos-paciente .fila-datos-paciente .col-datos-paciente label,
+.cont-datos-paciente .fila-datos-paciente .col-datos-paciente select {
+    font-size: 2.5rem;
+}
+
+.cont-datos-paciente .fila-ultima-consulta .col-ultima-consulta h2,
+.cont-datos-paciente .fila-ultima-consulta .col-ultima-consulta h4 {
+    display: inline-block;
+}
+
+.cont-datos-paciente .fila-datos-paciente .col-datos-paciente h2,
+.cont-datos-paciente .fila-ultima-consulta .col-ultima-consulta h2 {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.cont-datos-paciente .fila-ultima-consulta .col-ultima-consulta .no-sesiones {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #CECCCE;
+}
+
+.cont-datos-paciente .fila-ultima-consulta .col-ultima-consulta .no-sesiones span {
+    color: white;
+}
+
+
+.cont-datos-paciente .fila-datos-generales .col-datos-generales p {
+    font-size: 2rem;
+}
+
+/* ====================================================== */
+/* ==================== CONSULTA 2 ====================== */
+/* ====================================================== */
+
+main .carousel .carousel-inner .carousel-item .segunda-parte {
+    padding: 0 10rem;
+}
+
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-datos-paciente,
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-tratamientos {
+    border: solid .5rem #2EBAD9;
+    border-radius: 1rem;
+}
+
+.titulo-segunda-parte {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-datos-paciente .col-datos {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+}
+
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-datos-paciente .col-datos p span {
+    color: #52CCF6;
+}
+
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-datos-paciente .col-datos p {
+    margin-bottom: 0!important;
+    color: #CECCCE;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main .carousel .carousel-inner .carousel-item .segunda-parte .row,
+main .carousel .carousel-inner .carousel-item .segunda-parte .tratamientos {
+    margin-top: 1rem;
+}
+
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-consulta label, 
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-datos-consulta label,
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-tratamientos label {
+    color: #52CCF6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-consulta input,
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-datos-consulta input,
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-tratamientos input {
+    line-height: normal;
+    font-size: 2.5rem;
+    width: 50%;
+}
+
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-consulta input,
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-datos-consulta input,
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-datos-consulta textarea,
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-tratamientos input,
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-tratamientos textarea {
+    border: solid 2px #000;
+    
+}
+
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-datos-consulta textarea,
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-tratamientos textarea {
+    resize: none;
+    font-size: 2rem;
+}
+
+/* =================================================================== */
+/* Aqui van los estilos de la parte de los tratamientos de la consulta */
+/* =================================================================== */
+
+main .carousel .carousel-inner .carousel-item .segunda-parte .tabla-tratamientos {
+    margin-top: 0;
+}
+
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-tratamientos {
+    padding: 2rem;
+    background-color: white;
+    border: solid .5rem #2EBAD9;
+    border-radius: 1rem;
+}
+
+main .carousel .carousel-inner .carousel-item .segunda-parte .fila-tratamientos .agregar-tratamiento {
+    background-color: #E9E9E9;
+    padding: 1rem 3rem;
+    font-size: 2.5rem;
+    border: solid .3rem #B0B1B0;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+main .carousel .carousel-inner .carousel-item .segunda-parte .tabla-tratamientos {
+    padding: 2rem;
+}
+
+main .carousel .carousel-inner .carousel-item .segunda-parte .tabla-tratamientos .table {
+    font-size: 2.5rem;
+}
+
+
+main .carousel .carousel-inner .carousel-item .segunda-parte .tabla-tratamientos .scroll-bg {
+    /* background-color: rgb(0, 95, 204); */
+    width: 100%;
+}
+
+main .carousel .carousel-inner .carousel-item .segunda-parte .tabla-tratamientos .scroll-bg .scroll-div {
+    height: 19rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+main .carousel .carousel-inner .carousel-item .segunda-parte .tabla-tratamientos .table a {
+    background-color: #E9E9E9;
+    border: solid .2rem #B0B1B0;
+
+}
+main .carousel .carousel-inner .carousel-item .segunda-parte .tabla-tratamientos .table a i {
+    font-size: 2rem;
+
+}
+
+/* ================================================================ */
+/* Aqui van los de los botones para cambiar de vista en la consulta */
+/* ================================================================ */
+main .carousel button {
+    width: auto!important;
+    opacity: inherit;
+}
+
+main .carousel button div {
+    padding: .5rem;
+    border-radius: 50%;
+    color: #B0B1B0;;
+    background-color: #B0B1B0;
+    
+}
+
+main .carousel button .carousel-control-prev-icon,
+main .carousel button .carousel-control-next-icon {
+    width: 5rem;
+    height: 5rem;
+}
+
+main .carousel button .prev {
+    margin-left: 1.5rem;
+}
+main .carousel button .next {
+    margin-right: 1.5rem;
+}
+
+
+
+.fila-medicamentos {
+    position: relative;
+}
+
+.lista-medicamentos {
+    background-color: #e7e7e7;
+    position: absolute;
+    right: 130px;
+    top: 136px;
+    width: 31%!important;
+    visibility: hidden;
+}
+
+.lista-medicamentos-visible {
+    visibility: visible;
+}
+
+.lista-medicamentos ul li {
+    margin-top: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.lista-medicamentos ul {
+    padding: 0;
+}
+
+.ocultar {
+    display: none!important;
+} */
+
+.input-oculto {
+    visibility: hidden;
+}
+
+
